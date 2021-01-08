@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan  7 20:34:06 2021
 
-@author: Rohan Sharma
-"""
 
 from tkinter import *
 root=Tk()
