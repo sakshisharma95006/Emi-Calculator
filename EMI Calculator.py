@@ -25,7 +25,7 @@ Entry(root,textvariable=la).place(x=220,y=250)
 Entry(root,textvariable=lr).place(x=220,y=290)
 Entry(root,textvariable=lt).place(x=220,y=330)
 
-def chootabhim():
+def exit():
     root.destroy()
     
 def submit():
@@ -40,7 +40,7 @@ def submit():
     
           
 Button(root,text="Calculate Emi",width=15,command=submit).place(x=50,y=450)
-Button(root,text="Termination",width=15,command=chootabhim).place(x=240,y=450)
+Button(root,text="Termination",width=15,command=exit).place(x=240,y=450)
           
 
 
